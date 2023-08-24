@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Oswald:wght@500;600&family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color:#F2DD68;
+    margin: 20px;
+    border-radius: 50px;
+    position: relative;
+    float: left;
+}
+
+.eye1{
+    position: absolute;
+    width:12px;
+    height:12px;
+    background-color: #995710;
+    border-radius: 50px;
+    left: 25px;
+    top: 30px;
+}
+
+.eye2{
+    
+    position: absolute;
+    width:12px;
+    height:12px;
+    background-color: #995710;
+    border-radius: 50px;
+    right: 25px;
+    top: 30px;
+}
+
+.mouth{
+    width: 60px;
+    height: 30px;
+    background-color: #995710;
+    border-radius: 0 0 40px 40px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.tongue{
+    width: 30px;
+    height: 15px;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(226,93,93);
+    position: absolute;
+    top:15px;
+    left: 14px;
+}
+
+.mouth-shock{
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    background-color: #995710;
+    position: absolute;
+    top:56px;
+    left: 38px;
+}
+
+.mouth-speechless{
+    width: 60px;
+    height: 4px;
+    border-radius:15px;
+    background-color: #995710;
+    position: absolute;
+    top:65px;
+    left: 22px;
+}
+
+.write-up{
+    position: absolute;
+    top:300px;
+    background-color: #D8AA2B;
+    width: 50% ;
+    left: 390px;
+    border-radius: 20px;
+}
+
+.wrapper{
+    margin:0 auto;
+    width:max-content;
+}
+
+p{
+    text-align: center;
+    padding: 30px;
+}
+
+.emoji-face:hover{
+    transform: scale(1.25);
+    animation: aman 8s infinite;
+}
+
+
+@keyframes aman {
+    0% {
+        background-color: rgb(209, 212, 8);
+    }
+
+    25% {
+        background-color: rgb(236, 125, 34);
+    }
+
+    50% {
+        background-color: rgb(224, 224, 65);
+    }
+
+    75% {
+        background-color: rgb(234, 95, 9);
+    }
+}
